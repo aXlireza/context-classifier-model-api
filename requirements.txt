@@ -1,1 +1,4 @@
-Flask==3.0.0
+Flask==3.0.0  # Replace with the version you are using
+tensorflow==2.15.0  # Replace with the version you are using
+numpy==1.24.3  # Replace with the version compatible with your TensorFlow version
+tensorflow-text==2.15.0  # Must match TensorFlow's version

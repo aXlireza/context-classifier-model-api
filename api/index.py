@@ -7,6 +7,10 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 import numpy as np
 import tensorflow_text as text
 
+print(tf.__version__)
+print(text.__version__)
+print(np.__version__)
+
 CLASS_NAMES = ['negative', 'neutral', 'other', 'positive', 'toxic']
 
 # Initialize Flask app
